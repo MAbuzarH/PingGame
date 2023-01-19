@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+.main{
+    height:100vh;
+    background-color: crimson;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+
+    position: relative;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid rgb(221, 214, 214);
+    border-radius:5%;
+    
+}
+.section1 h3{
+    font-size: 50px;
+    font-family: sans-serif;
+    padding: 72px 30px;
+    padding-bottom:4px;
+    margin: 18px;
+}
+.section1 p{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 6rem; 
+}
+.end{
+    display: flex;
+    border: 1px solid black;
+    background-color:crimson;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 18px;
+}
+.end span{
+    padding: 3px 8px 2px 8px;
+    margin: 3px;
+    font-size: 25px;
+}
+.end:hover{
+    cursor: pointer;
+}
+.active{
+    background-color: rgba(0,0,0,0.5);
+}
+.sec{
+    position: relative;
+}
+.again{
+    
+    padding: 10px 20px;
+    position: absolute;
+    top : 12%;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.again:hover{
+    cursor: pointer;
+}
+.roll{
+    padding: 10px 20px;
+    position: absolute;
+    top : 62%;
+    background-color: aliceblue;
+    border-radius: 20px;  
+}
+.roll:hover{
+    cursor: pointer;
+}
+.hold{
+    padding: 10px 20px;
+    position: absolute;
+    top : 74%;
+    background-color: aliceblue;
+    border-radius: 20px;   
+}
+.hold:hover{
+    cursor: pointer; 
+}
+.dice_image{
+width: 11%;
+height: 10%;
+position: absolute;
+right: 45%;
+bottom: 51%;
+}
+.hidden{
+    display: none;
+}
+.player_winner{
+    background-color: rgb(66 72 161);
+}
